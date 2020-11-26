@@ -44,7 +44,6 @@ First, we'll need to retrieve a list of all the artists in my record collection.
 let's log in to Discogs and retrieve the list of records in my collection:
 
 ```python
-# Get artists in my record collection
 discogs_agent = dc.Client('JukeboxAppUWPCE/0.1', user_token=DISCOGS_ACCESS_TOKEN)
 discogs_user = discogs_agent.identity()
 record_collection = discogs_user.collection_folders[1].releases
@@ -107,7 +106,7 @@ query Spotify for a list of the artist's top tracks and add a random track from 
     for similar_artist in random_similar_artists:
         print("Found similar artist: ", similar_artist['name'])
         similar_artist_top_tracks = spotify_agent.artist_top_tracks(similar_artist['id'])['tracks']
-        track_ids.update([track['id'] for track in random.sample(similar_artist_top_tracks, 1)])
+        track_ids.add(random.sample(similar_artist_top_tracks, 1)[0]['id'])
 ```
 
 So now we've got our list of track IDs - let's add them to a new playlist:
