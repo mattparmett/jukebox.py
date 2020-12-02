@@ -13,8 +13,6 @@ I use an app called [Discogs](https://discogs.com) to track the records in my co
 my records are catalogued on their app, I had an idea.  Could I use python to get a list of all
 the artists in my Discogs collection and generate a Spotify playlist with songs from similar artists?
 
-Of course, the answer is yes...
-
 Python has pretty great packages for interfacing with both the Discogs and Spotify APIs.  For
 Discogs, I used [discogs_client](https://github.com/joalla/discogs_client) and for Spotify, I
 used [spotipy](https://github.com/plamere/spotipy).
