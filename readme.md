@@ -1,8 +1,6 @@
 # Jukebox - A tiny music recommendation app
 
-Spotify is amazing (that's a fact).
-
-One of their best features is the "create similar playlist" function.  You can use this on
+One of Spotify's best features is the "create similar playlist" function.  You can use this on
 your existing playlists to have Spotify generate playlists with songs from the same artists and
 artists that are similar to those artists.
 
