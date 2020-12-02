@@ -9,8 +9,7 @@ Spotify library unless I go through and manually save each album to a playlist. 
 want to go through and save all my albums to Spotify, so I can't use the "create similar playlist"
 function on my record collection.
 
-I use a really cool app called [Discogs](https://discogs.com) to track the records in my collection
-(they also have a cool "wantlist" feature that is like an Amazon wishlist for records).  Since all
+I use an app called [Discogs](https://discogs.com) to track the records in my collection.  Since all
 my records are catalogued on their app, I had an idea.  Could I use python to get a list of all
 the artists in my Discogs collection and generate a Spotify playlist with songs from similar artists?
 
